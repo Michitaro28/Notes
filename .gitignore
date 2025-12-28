@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# MkDocs
+site/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
