@@ -21,6 +21,7 @@ markdown_extensions:
   - meta
   - tables
   - abbr
+  - md_in_html
   
   # PyMdown Extensions
   - pymdownx.highlight:
