@@ -19,14 +19,17 @@
 uv pip install requests
 ```
 
-!!!Note requestsライブラリとは？
+!!! note "requestsライブラリとは？"
     requestsライブラリは、Pythonで最も広く使われているHTTPクライアントライブラリです。
+    
     主な特徴:
-    簡潔なAPI: HTTP リクエスト(GET, POST, PUT, DELETE等)を簡単に送信できる
-    自動処理: JSON のエンコード/デコード、セッション管理、Cookie処理などを自動化
-    人間向け設計: 標準ライブラリの urllib よりも直感的で読みやすいコード
+    
+    - 簡潔なAPI: HTTP リクエスト(GET, POST, PUT, DELETE等)を簡単に送信できる
+    - 自動処理: JSON のエンコード/デコード、セッション管理、Cookie処理などを自動化
+    - 人間向け設計: 標準ライブラリの urllib よりも直感的で読みやすいコード
 
     **使用例**
+    
     ```python
     import requests
 
@@ -42,12 +45,14 @@ uv pip install requests
     if response.status_code == 200:
         print('成功')
     ```
+    
     主な用途:
 
-    外部APIの呼び出し
-    Webスクレイピング
-    マイクロサービス間の通信
-    データの取得・送信
+    - 外部APIの呼び出し
+    - Webスクレイピング
+    - マイクロサービス間の通信
+    - データの取得・送信
+    
     FastAPIアプリケーションでは、他のAPIと連携する際や、テストコードでエンドポイントを呼び出す際によく使用されます。
 
 ## main.pyへの記述
