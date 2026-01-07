@@ -36,7 +36,7 @@
 
 ## MVTモデルの動き
 
-![image](../../assets/images/MVTモデルの動き.png)
+![image](../../../assets/images/MVTモデルの動き.png)
 
 **ステップ**
 1. リクエスト
@@ -56,7 +56,7 @@ Djangoの「URLディスパッチャ」は、ユーザーがWEBサイトにア�
 ## サーバー側の処理
 
 **Django処理の全体構成**
-![Django処理の流れ](../../assets/images/Djangoの処理の流れ.png)
+![Django処理の流れ](../../../assets/images/Djangoの処理の流れ.png)
 
 **ステップ**
 1. ユーザーがブラウザでURLを入力し、WEBサイトにアクセスします。
